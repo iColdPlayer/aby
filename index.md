@@ -9,7 +9,7 @@ layout: default
     "Profile": {
         "id": "iColdPlayer",
         "shortname": "Aby",
-        "country": {
+        "location": {
             "region": "Indonesia",
             "city": "West Jakarta",
             "email": "hi-there@mail.com",
@@ -81,7 +81,7 @@ layout: default
 
 
 ---
-Made with :heart: by `iColdPlayer`
+Made by `iColdPlayer`
 
 <!-- Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`. 
 
