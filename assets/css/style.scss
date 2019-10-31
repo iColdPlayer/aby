@@ -2,3 +2,17 @@
 ---
 
 @import 'jekyll-theme-hacker';
+
+header h1 {
+    padding-left: 35px !important;
+}
+
+.root {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }

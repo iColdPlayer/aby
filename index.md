@@ -8,6 +8,7 @@ layout: default
 {
     "Profile": {
         "id": "iColdPlayer",
+        "shortname": "Aby",
         "country": {
             "region": "Indonesia",
             "city": "West Jakarta",
@@ -16,7 +17,7 @@ layout: default
         }
     },
     "skill": {
-        "language": {
+        "speaking": {
             "primary": "Bahasa Indonesia",
             "secondary": "English"
         },
@@ -24,9 +25,13 @@ layout: default
             "django & django_rest_framework",
             "python", 
             "ubuntu",
+            "ubuntu server",
             "git",
             "google cloud",
             "heroku",
+            "wordpress",
+            "html & css",
+            "js & jQuery",
         ],
         "databases": [
             "PostgreSQL",
@@ -34,11 +39,49 @@ layout: default
             "SQLite3",
             "MySQL"
         ]
+    },
+    "experiences":{
+        "exp_0":{
+            "company": "Sejahtera Mandiri Perkasa, PT.",
+            "role": "Tech Support & Developer",
+        },
+        "exp_1":{
+            "company": "Sejahtera Mandiri Perkasa, PT.",
+            "role": "Tech Support & Developer",
+        },
+        "exp_2":{
+            "company": "Cipta Putra Manunggal, PT.",
+            "role": "Backend Engineer",
+        },
+        "exp_3":{
+            "company": "Okular Media Kreasi, PT.",
+            "role": "Frontend & Backend Engineer",
+        },
     }
-
 }
 ```
 
+# Portfolio
+
+| project           | core dependencies     | demo                                   |  source                                            |
+|-------------------|-----------------------|----------------------------------------|----------------------------------------------------|
+| cashier           | `django` & `python`   | [`demo`](https://kasir.herokuapp.com)  |  [`source`](https://github.com/icoldplayer/kasir)  |
+| forum             | `django` & `python`   | [`demo`](http://ask.notnoob.com)  |  *private*  |
+| ecommerce         | `django` & `python`   | [`demo`](http://shop.notnoob.com)  |  *private*  |
+| tools             | `jupyter` & `python`  | [`demo`](https://github.com/iColdPlayer/notebook)  |  [`source`](https://github.com/icoldplayer/kasir)  |
+| shop              | `django` & `python`   | [`demo`](https://icoldplayer.herokuapp.com)  |  [`source`](https://github.com/iColdPlayer/django-shop)  |
+| django-blog       | `django` & `python`   | [`demo`](http://notnoob.com)  |  [`source`](https://github.com/icoldplayer/kasir)  |
+| flask news        | `flask` & `python`    | [`demo`](https://flaskr.appspot.com)  |  [`source`](https://github.com/icoldplayer/kasir)  |
+| file management   | `django` & `python`   | [`demo`](https://github.com/icoldplayer/drive)  |  [`source`](https://github.com/icoldplayer/kasir)  |
+| ACS               | hikvision & ACS       | [`demo`](https://github.com/iColdPlayer/acs-standard-wiring)  |  [`source`](https://github.com/iColdPlayer/acs-standard-wiring)  |
+| rails news        | `rails` & `ruby`      | [`demo`](https://github.com/iColdPlayer/RailsNews)  |  [`source`](https://github.com/iColdPlayer/RailsNews)  |
+| helpdesk          | `rails` & `ruby`      | [`demo`](https://support.notnoob.com)  |  *private*  |
+| rails meta        | `rails` & `ruby`      | *coming soon*  |  *private*  |
+| .NET Core News    | `.NET` & `C#`         | [`demo`](https://github.com/iColdPlayer/ASP.NET-MVC)  |  [`source`](https://github.com/iColdPlayer/ASP.NET-MVC)  |
+
+
+---
+Made with :heart: by `iColdPlayer`
 
 <!-- Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`. 
 
