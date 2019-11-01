@@ -1,13 +1,14 @@
 # Site settings
 title: iColdPlayer
 email: hi-there@mail.com
-url: https://git-init.github.io
+url: https://icoldplayer.github.io
 description: "Backend Engineer. | Python & Django Enthusiast"
 keywords: "your keywords, separated by commas"
 skills: "Web Developer - Backend - Python - Django - Ubuntu"
 
 
 # Google webmaster tools
+# nope
 google_verify:
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
