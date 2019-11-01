@@ -11,7 +11,7 @@ layout: default
         "shortname": "Aby",
         "email": "hi-there@mail.com",
         "linkedin": "linkedin.com/in/abdullohyusuf",
-        "site",: "http://notnoob.com",
+        "site": "http://notnoob.com",
         "location": {
             "region": "Indonesia",
             "city": "West Jakarta",
