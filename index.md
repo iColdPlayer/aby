@@ -9,11 +9,12 @@ layout: default
     "Profile": {
         "id": "iColdPlayer",
         "shortname": "Aby",
+        "email": "hi-there@mail.com",
+        "linkedin": "linkedin.com/in/abdullohyusuf",
+        "site",: "http://notnoob.com",
         "location": {
             "region": "Indonesia",
             "city": "West Jakarta",
-            "email": "hi-there@mail.com",
-            "linkedin": "linkedin.com/in/abdullohyusuf"
         }
     },
     "skills": {
