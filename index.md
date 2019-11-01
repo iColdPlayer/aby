@@ -16,7 +16,7 @@ layout: default
             "linkedin": "linkedin.com/in/abdullohyusuf"
         }
     },
-    "skill": {
+    "skills": {
         "speaking": {
             "primary": "Bahasa Indonesia",
             "secondary": "English"
@@ -75,8 +75,8 @@ layout: default
 | file management   | `django` & `python`   | [`demo`](https://github.com/icoldplayer/drive)  |  [`source`](https://github.com/icoldplayer/kasir)  |
 | ACS               | hikvision & ACS       | [`demo`](https://github.com/iColdPlayer/acs-standard-wiring)  |  [`source`](https://github.com/iColdPlayer/acs-standard-wiring)  |
 | rails news        | `rails` & `ruby`      | [`demo`](https://github.com/iColdPlayer/RailsNews)  |  [`source`](https://github.com/iColdPlayer/RailsNews)  |
-| helpdesk          | `rails` & `ruby`      | [`demo`](https://support.notnoob.com)  |  *private*  |
-| rails meta        | `rails` & `ruby`      | *coming soon*  |  *private*  |
+| helpdesk          | `rails` & `ruby`      | [`demo`](https://support.notnoob.com)  |  [`source`](https://github.com/icoldplayer/helpdesk)  |
+| rails meta        | `rails` & `ruby`      | *coming soon*  |  [`source`](https://github.com/icoldplayer/meta)  |
 | .NET Core News    | `.NET` & `C#`         | [`demo`](https://github.com/iColdPlayer/ASP.NET-MVC)  |  [`source`](https://github.com/iColdPlayer/ASP.NET-MVC)  |
 
 
