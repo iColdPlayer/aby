@@ -10,7 +10,7 @@ layout: default
         "id": "iColdPlayer",
         "shortname": "Aby",
         "email": "hi-there@mail.com",
-        "linkedin": "linkedin.com/in/abdullohyusuf",
+        "linkedin": "linkedin.notnoob.com",
         "site": "http://notnoob.com",
         "location": {
             "region": "Indonesia",
