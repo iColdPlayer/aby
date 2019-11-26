@@ -26,7 +26,7 @@ layout: default
             "django & django rest framework",
             "python", 
             "ubuntu",
-            "Docker",
+            "docker",
             "ubuntu server",
             "git",
             "google cloud",
@@ -34,7 +34,7 @@ layout: default
             "wordpress",
             "html & css",
             "js & jQuery",
-            "Rails (Beginner)",
+            "rails (beginner)",
         ],
         "databases": [
             "PostgreSQL",
