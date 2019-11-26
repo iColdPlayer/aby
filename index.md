@@ -23,9 +23,10 @@ layout: default
             "secondary": "English"
         },
         "technologies": [
-            "django & django_rest_framework",
+            "django & django rest framework",
             "python", 
             "ubuntu",
+            "Docker",
             "ubuntu server",
             "git",
             "google cloud",
@@ -33,6 +34,7 @@ layout: default
             "wordpress",
             "html & css",
             "js & jQuery",
+            "Rails (Beginner)",
         ],
         "databases": [
             "PostgreSQL",
