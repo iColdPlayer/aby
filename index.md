@@ -41,7 +41,8 @@ layout: default
             "MongoDB",
             "SQLite3",
             "MySQL"
-        ]
+        ],
+        "note": "I prefer not to work with PHP",
     },
     "experiences":{
         "exp_0":{
