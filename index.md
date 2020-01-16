@@ -1,6 +1,3 @@
----
-layout: default
----
 
 # `profile.json`
 
@@ -59,7 +56,7 @@ layout: default
         },
         "exp_3":{
             "company": "Okular Media Kreasi, PT.",
-            "role": "Frontend & Backend Engineer",
+            "role": "Sometime work in Frontend & but usually as a Backend Engineer",
         },
     }
 }
