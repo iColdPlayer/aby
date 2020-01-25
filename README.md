@@ -1,1 +1,0 @@
-Personal [github](https://github.com) [pages](https://pages.github.com)
