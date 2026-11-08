@@ -1,135 +1,549 @@
-<!DOCTYPE html>
-<html lang="id">
+<!doctype html>
+<html lang="en">
+
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f2ec">
+  <meta name="description"
+    content="Backend and full-stack engineer in Jakarta, Indonesia. Python, Django, PostgreSQL, production systems and data engineering.">
+  <title>Abdulloh Yusuf — Full-Stack & Data Engineer</title>
 
-    <meta charset="UTF-8">
-	<meta name="description" content="Backend Engineer, Python, Django, Linux and Rails">
-    <meta name="keywords" content="Backend Engineer, Python, Django, Linux, Rails, Web Development, Jasa Web Developer, Jasa Pembuatan Website, Jasa Pembuatan eCommerce, Jasa Designer, Jasa Pembuatan WordPress Themes, Jasa Pembuatan Company Profile">
-    <meta name="author" content="iColdPlayer | noTnoob, Inc.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>iColdPlayer</title>
-    
-    <!-- fucking analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147239551-4"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-147239551-4');
-    </script>
-
-</head>
-<body>
-<style>
-.fucking_ads {
-    float: right;
-    padding: 10px 50px 10px 10px;
-}
-.big_hell {
-    font-size: 50px;
-}
-</style>
-</div>
-
-    <h1>
-        <pre class='big_hell'>Hello World!</pre>
-    </h1>
-	
-	<a href="https://github.com/iColdPlayer" target="_blank">GitHub</a> or <a href="http://dev.notnoob.com" target="_blank">Visit my blog</a>
-
-    <pre>
-        <h1>profile.json</h1>
-    </pre>
-    
-    
-    <pre>
-        {
-            "Profile": {
-                "id": <b>"iColdPlayer"</b>,
-                "shortname": <b>"Aby"</b>,
-                "email": <a href="mailto:hi-there@mail.com" target="_blank"><b>"hi-there@mail.com"</b></a>,
-                "linkedin": <a href="http://linkedin.com/in/abdullohyusuf" target="_blank"><b>"linkedin"</b></a>,
-                "site": <a href="https://dev.notnoob.com" target="_blank"><b>"http://dev.notnoob.com"</b></a>,
-                "location": {
-                    "region": <b>"Indonesia"</b>,
-                    "city": <b>"West Jakarta"</b>,
-                }
-            },
-            "skills": {
-                "speaking": {
-                    "primary": <b>"Bahasa Indonesia"</b>,
-                    "secondary": <b>"English"</b>
-                },
-                "technologies": [
-                    <b>"django & django rest framework"</b>,
-                    <b>"python"</b>, 
-                    <b>"ubuntu"</b>,
-                    <b>"docker"</b>,
-                    <b>"ubuntu server"</b>,
-                    <b>"git"</b>,
-                    <b>"google cloud"</b>,
-                    <b>"heroku"</b>,
-                    <b>"wordpress"</b>,
-                    <b>"html & css"</b>,
-                    <b>"js & jQuery"</b>,
-                    <b>"rails (beginner)"</b>,
-                ],
-                "databases": [
-                    <b>"PostgreSQL"</b>,
-                    <b>"MongoDB"</b>,
-                    <b>"SQLite3"</b>,
-                    <b>"MySQL"</b>
-                ],
-                "note": <b style="color: red;">"I prefer not to work with PHP"</b>,
-            },
-            "experiences":{
-                "exp_0":{
-                    "company": <b>"Sejahtera Mandiri Perkasa, PT."</b>,
-                    "role": <b>"Tech Support & Developer"</b>,
-                },
-                "exp_1":{
-                    "company": <b>"Cipta Putra Manunggal, PT."</b>,
-                    "role": <b>"Backend Engineer"</b>,
-                },
-                "exp_2":{
-                    "company": <b>"Okular Media Kreasi, PT."</b>,
-                    "role": <b>"Sometime work as a Frontend & but usually as a Backend Engineer"</b>,
-                },
-            }
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            paper: '#f4f2ec',
+            ink: '#1b1c19',
+            muted: '#686b63',
+            rule: '#d3d0c7',
+            accent: '#c44d2e',
+            dark: '#242621'
+          },
+          fontFamily: {
+            sans: ['DM Sans', 'Arial', 'sans-serif'],
+            display: ['Manrope', 'DM Sans', 'Arial', 'sans-serif'],
+            mono: ['IBM Plex Mono', 'monospace']
+          },
+          letterSpacing: {
+            editorial: '-0.065em'
+          }
         }
-    </pre>
-    
+      }
+    }
+  </script>
+  <!-- <style>
+    @font-face {
+        font-family: 'Minecraft';
+        src: url('https://cdn.jsdelivr.net/gh/aditkumar08/minecraft-font/Minecraft-Regular.woff2') format('woff2');
+        font-display: swap;
+    }
 
-    <pre>
-        <h2>Portfolios</h2>
-    </pre>
+    body {
+        font-family: 'Minecraft', monospace !important;
+    }    
+  </style> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+</head>
 
-    <pre>
-        | project         |core dependencies| demo   |  source  |
-        |-----------------|-----------------|--------|----------|
-        | cashier         | django & python | <a href="https://kasir.herokuapp.com">demo</a>   |  <a href="https://github.com/icoldplayer/kasir">source</a>  |
-        | forum           | django & python | <a href="http://ask.notnoob.com">demo</a>   |  source  |
-        | ecommerce       | django & python | <a href="http://shop.notnoob.com">demo</a>   |  source  |
-        | tools           | jupyter & python| <a href="https://github.com/iColdPlayer/notebook">demo</a>   |  <a href="https://github.com/icoldplayer/kasir">source</a>  |
-        | shop            | django & python | <a href="https://icoldplayer.herokuapp.com">demo</a>   |  <a href="https://github.com/iColdPlayer/django-shop">source</a>  |
-        | django-blog     | django & python | <a href="http://notnoob.com">demo</a>   |  <a href="https://github.com/icoldplayer/kasir">source</a>  |
-        | flask news      | flask & python  | <a href="https://flaskr.appspot.com">demo</a>   |  <a href="https://github.com/icoldplayer/kasir">source</a>  |
-        | file management | django & python | <a href="https://github.com/icoldplayer/drive">demo</a>   |  <a href="https://github.com/icoldplayer/kasir">source</a>  |
-        | ACS             | hikvision & ACS | <a href="https://github.com/iColdPlayer/acs-standard-wiring">demo</a>   |  <a href="https://github.com/iColdPlayer/acs-standard-wiring">source</a>  |
-        | rails news      | rails & ruby    | <a href="https://github.com/iColdPlayer/RailsNews">demo</a>   |  <a href="https://github.com/iColdPlayer/RailsNews">source</a>  |
-        | helpdesk        | rails & ruby    | <a href="https://support.notnoob.com">demo</a>   |  <a href="https://github.com/icoldplayer/helpdesk">source</a>  |
-        | rails meta      | rails & ruby    | demo   |  <a href="https://github.com/icoldplayer/meta">source</a>  |
-        | .NET Core News  | .NET & C#       | <a href="https://github.com/iColdPlayer/ASP.NET-MVC">demo</a>   |  <a href="https://github.com/iColdPlayer/ASP.NET-MVC">source</a>  |
+<body class="bg-paper font-sans text-ink antialiased selection:bg-accent selection:text-white">
+  <!-- Header -->
+  <header class="border-b border-rule">
+    <nav class="mx-auto flex max-w-[1440px] items-center justify-between px-6 py-5 sm:px-10 lg:px-16"
+      aria-label="Main navigation">
+      <a href="#top" class="group flex items-center gap-3" aria-label="Back to top">
+        <span class="font-display text-[15px] font-extrabold uppercase tracking-[-0.06em]">Abdulloh Yusuf<span
+            class="text-accent">.</span></span>
+        <span
+          class="hidden border-l border-rule pl-3 font-mono text-[10px] uppercase tracking-[0.14em] text-muted sm:inline">Independent
+          engineer</span>
+      </a>
+      <div class="flex items-center gap-5 text-[12px] font-medium sm:gap-8 sm:text-[13px]">
+        <a href="#work" class="transition-colors hover:text-accent">Work</a>
+        <a href="#experience" class="hidden transition-colors hover:text-accent sm:inline">Experience</a>
+        <a href="#capabilities" class="hidden transition-colors hover:text-accent sm:inline">Capabilities</a>
+        <a href="#portfolios" class="hidden transition-colors hover:text-accent sm:inline">Projects</a>
+        <a href="#contact" class="border-b border-accent pb-1 transition-colors hover:text-accent">Contact <span
+            aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
 
-    </pre>
+  <main id="top" class="mx-auto max-w-[1440px] px-6 sm:px-10 lg:px-16">
+    <!-- Intro -->
+    <section class="grid gap-12 border-b border-rule py-16 sm:py-24 lg:grid-cols-12 lg:gap-8 lg:py-32">
+      <div class="lg:col-span-8">
+        <p
+          class="mb-8 flex items-center gap-3 font-mono text-[10px] uppercase tracking-[0.18em] text-muted sm:text-[11px]">
+          <span class="h-px w-8 bg-accent"></span> Backend · Full-stack · Data engineering
+        </p>
+        <h1
+          class="max-w-[940px] font-display text-[clamp(3.5rem,8.5vw,8.4rem)] font-semibold leading-[0.91] tracking-editorial">
+          I build the<br class="hidden sm:block"> systems behind<br>
+          <span class="text-accent">the operation.</span>
+        </h1>
+        <div class="mt-10 grid max-w-3xl gap-6 sm:grid-cols-[140px_1fr] sm:gap-10">
+          <p class="font-mono text-[10px] uppercase tracking-[0.16em] text-muted">A little about me</p>
+          <p class="max-w-2xl text-[16px] leading-[1.8] text-[#454840] sm:text-[18px]">
+            Software engineer with 6+ years of experience building production complex systems, REST APIs, and data
+            pipelines.
+            My work is primarily focused on Python, Django, TypeScript and PostgreSQL — from the data model and API
+            layer to deployment and day-to-day production ownership.
+          </p>
+        </div>
+      </div>
 
-    <footer>
-        <pre>
-            Inspired by the genius behind <a href="http://motherfuckingwebsite.com">this</a> and <a href="http://bettermotherfuckingwebsite.com">this</a>
-        </pre>
-    </footer>
+      <aside
+        class="flex flex-col justify-between border-t border-rule pt-5 lg:col-span-4 lg:ml-8 lg:mt-2 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0">
+        <div>
+          <p class="font-mono text-[10px] uppercase tracking-[0.16em] text-muted">Based in</p>
+          <p class="mt-2 font-display text-2xl font-semibold tracking-tight">South Jakarta, Indonesia</p>
+          <p class="mt-1 font-mono text-[11px] text-muted">WIB / UTC+7</p>
+        </div>
+        <div class="mt-10 space-y-5">
+          <div class="border-t border-rule pt-4">
+            <p class="font-mono text-[10px] uppercase tracking-[0.16em] text-muted">Focus</p>
+            <p class="mt-2 text-sm leading-6">Fullstack architecture, data workflows, APIs, and operational platforms.
+            </p>
+          </div>
+          <div class="border-t border-rule pt-4">
+            <p class="font-mono text-[10px] uppercase tracking-[0.16em] text-muted">Availability</p>
+            <p class="mt-2 flex items-center gap-2 text-sm"><span class="h-2 w-2 rounded-full bg-accent"></span>
+              Available immediately</p>
+            <p class="mt-1 text-sm text-muted">On-site or remote</p>
+          </div>
+        </div>
+        <a href="#work"
+          class="mt-12 inline-flex w-fit items-center gap-3 border-b border-ink pb-2 text-[12px] font-semibold uppercase tracking-[0.12em] transition-colors hover:border-accent hover:text-accent">
+          Selected work <span class="text-accent">↓</span>
+        </a>
+      </aside>
+    </section>
+
+    <!-- Selected work / proof -->
+    <section id="work" class="border-b border-rule py-16 sm:py-24">
+      <div class="grid gap-8 lg:grid-cols-12 lg:gap-8">
+        <div class="lg:col-span-3">
+          <p class="font-mono text-[10px] uppercase tracking-[0.18em] text-accent">01 / Selected work</p>
+          <p class="mt-4 max-w-[230px] text-sm leading-6 text-muted">A selection of systems and engineering outcomes
+            from production work.</p>
+        </div>
+        <div class="lg:col-span-9">
+          <!-- Flagship project -->
+          <article class="border-t border-ink pt-5">
+            <div class="flex flex-wrap items-center justify-between gap-3">
+              <p class="font-mono text-[10px] uppercase tracking-[0.14em] text-accent">Flagship platform · Sole engineer
+              </p>
+              <p class="font-mono text-[10px] uppercase tracking-[0.12em] text-muted">2023 — 2026</p>
+            </div>
+            <div class="mt-8 grid gap-6 md:grid-cols-[1fr_1.05fr] md:gap-12">
+              <h2 class="font-display text-4xl font-semibold leading-[1.02] tracking-[-0.055em] sm:text-5xl">National
+                food & nutrition programme platform</h2>
+              <div>
+                <p class="text-[15px] leading-[1.8] text-[#454840]">Built the digital platform end-to-end for
+                  Indonesia’s nationwide food & nutrition programme. The system covers multi-vendor management,
+                  geo-tagged delivery tracking, live administration dashboards, and compliance reporting.</p>
+                <p class="mt-5 font-mono text-[10px] uppercase tracking-[0.12em] text-muted">Django · FastAPI ·
+                  PostgreSQL · TypeScript · AWS & Tencent · Linux</p>
+              </div>
+            </div>
+            <div class="mt-10 border-y border-rule py-5">
+              <p class="font-mono text-[10px] uppercase tracking-[0.14em] text-muted">Platform scope</p>
+              <p class="mt-3 text-sm leading-7 text-[#454840]">Multi-vendor management <span
+                  class="mx-2 text-accent">/</span> Geo-tagged delivery tracking <span class="mx-2 text-accent">/</span>
+                Live admin dashboards <span class="mx-2 text-accent">/</span> Compliance reporting</p>
+            </div>
+          </article>
+
+          <!-- Supporting work -->
+          <div class="mt-16 border-t border-rule">
+            <article class="grid gap-4 border-b border-rule py-7 md:grid-cols-[52px_1fr_1.1fr] md:gap-8">
+              <p class="font-mono text-[11px] text-accent">02</p>
+              <div>
+                <h3 class="font-display text-2xl font-semibold tracking-tight">High-throughput REST APIs</h3>
+                <p class="mt-2 font-mono text-[10px] uppercase tracking-[0.1em] text-muted">Django REST Framework ·
+                  PostgreSQL</p>
+              </div>
+              <div class="md:pl-4">
+                <p class="text-sm leading-7 text-[#55584f]">Designed and optimised APIs handling more than 50,000
+                  requests per day, with an average response time below 80 ms.</p>
+                <p class="mt-4 font-display text-[25px] font-semibold tracking-tight">50K+ <span
+                    class="font-sans text-xs font-normal text-muted">requests / day</span><span
+                    class="mx-3 text-rule">·</span>&lt;80 ms</p>
+              </div>
+            </article>
+            <article class="grid gap-4 border-b border-rule py-7 md:grid-cols-[52px_1fr_1.1fr] md:gap-8">
+              <p class="font-mono text-[11px] text-accent">03</p>
+              <div>
+                <h3 class="font-display text-2xl font-semibold tracking-tight">Data pipelines & modelling</h3>
+                <p class="mt-2 font-mono text-[10px] uppercase tracking-[0.1em] text-muted">ETL · SQL · PostgreSQL</p>
+              </div>
+              <div class="md:pl-4">
+                <p class="text-sm leading-7 text-[#55584f]">Owned ingestion, deduplication, cleansing, schema
+                  normalisation, transformation, and warehouse loading across multiple source systems. Built churn and
+                  demand-forecasting models for operational dashboards.</p>
+                <p class="mt-4 font-display text-[25px] font-semibold tracking-tight">100K+ <span
+                    class="font-sans text-xs font-normal text-muted">records / day</span><span
+                    class="mx-3 text-rule">·</span>22% <span class="font-sans text-xs font-normal text-muted">lower
+                    overhead</span></p>
+              </div>
+            </article>
+            <article class="grid gap-4 border-b border-rule py-7 md:grid-cols-[52px_1fr_1.1fr] md:gap-8">
+              <p class="font-mono text-[11px] text-accent">04</p>
+              <div>
+                <h3 class="font-display text-2xl font-semibold tracking-tight">Payments & catalogue systems</h3>
+                <p class="mt-2 font-mono text-[10px] uppercase tracking-[0.1em] text-muted">Midtrans · Xendit · MongoDB
+                </p>
+              </div>
+              <div class="md:pl-4">
+                <p class="text-sm leading-7 text-[#55584f]">Integrated payment gateways supporting more than Rp2 billion
+                  in monthly transaction volume. Introduced MongoDB for product catalogue storage, reducing
+                  high-cardinality query latency by 40%.</p>
+                <p class="mt-4 font-display text-[25px] font-semibold tracking-tight">Rp2B+ <span
+                    class="font-sans text-xs font-normal text-muted">monthly volume</span><span
+                    class="mx-3 text-rule">·</span>40% <span class="font-sans text-xs font-normal text-muted">lower
+                    latency</span></p>
+              </div>
+            </article>
+            <article class="grid gap-4 border-b border-rule py-7 md:grid-cols-[52px_1fr_1.1fr] md:gap-8">
+              <p class="font-mono text-[11px] text-accent">05</p>
+              <div>
+                <h3 class="font-display text-2xl font-semibold tracking-tight">Client web products</h3>
+                <p class="mt-2 font-mono text-[10px] uppercase tracking-[0.1em] text-muted">Django · Svelte · TypeScript
+                </p>
+              </div>
+              <div class="md:pl-4">
+                <p class="text-sm leading-7 text-[#55584f]">Delivered more than 20 client web products end-to-end. Led a
+                  migration from legacy jQuery to Svelte, reducing frontend bundle size by 35% and cutting the
+                  development cycle in half.</p>
+                <p class="mt-4 font-display text-[25px] font-semibold tracking-tight">20+ <span
+                    class="font-sans text-xs font-normal text-muted">products</span><span
+                    class="mx-3 text-rule">·</span>35% <span class="font-sans text-xs font-normal text-muted">smaller
+                    bundle</span></p>
+              </div>
+            </article>
+          </div>
+          <div class="mt-7 flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
+            <p class="max-w-xl text-xs leading-6 text-muted">Some systems were built for employers or clients and are
+              not publicly accessible. Public code and repositories are linked below where available.</p>
+            <a href="https://github.com/icoldplayer" target="_blank" rel="noopener noreferrer"
+              class="inline-flex w-fit items-center gap-2 border-b border-ink pb-1 text-[11px] font-semibold uppercase tracking-[0.12em] hover:border-accent hover:text-accent">GitHub
+              profile <span class="text-accent">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="grid gap-8 border-b border-rule py-16 sm:py-24 lg:grid-cols-12 lg:gap-8">
+      <div class="lg:col-span-3">
+        <p class="font-mono text-[10px] uppercase tracking-[0.18em] text-accent">02 / Experience</p>
+        <h2
+          class="mt-5 max-w-[260px] font-display text-4xl font-semibold leading-[1.02] tracking-[-0.055em] sm:text-5xl">
+          From support to system ownership.</h2>
+        <p class="mt-5 max-w-[230px] text-sm leading-6 text-muted">From technical support and client delivery to backend
+          engineering and data platform ownership.</p>
+      </div>
+      <div class="lg:col-span-9">
+        <div class="border-t border-ink">
+          <article class="grid gap-3 border-b border-rule py-6 sm:grid-cols-[150px_1fr_150px] sm:gap-6">
+            <p class="font-mono text-[10px] uppercase tracking-[0.1em] text-muted">Apr 2023 — Aug 2026</p>
+            <div>
+              <h3 class="text-lg font-semibold">Fullstack Engineer / Data Engineer</h3>
+              <p class="mt-1 text-sm text-muted">PT. Risada Damai Sejahtera · Remote</p>
+              <p class="mt-3 max-w-2xl text-sm leading-6 text-[#55584f]">Owned ETL workflows and backend development for
+                production platforms, including the national school-meal programme infrastructure.</p>
+            </div>
+            <p class="font-mono text-[10px] uppercase tracking-[0.1em] text-muted sm:text-right">Data · Backend</p>
+          </article>
+          <article class="grid gap-3 border-b border-rule py-6 sm:grid-cols-[150px_1fr_150px] sm:gap-6">
+            <p class="font-mono text-[10px] uppercase tracking-[0.1em] text-muted">Sep 2022 — Mar 2023</p>
+            <div>
+              <h3 class="text-lg font-semibold">Full-Stack Engineer</h3>
+              <p class="mt-1 text-sm text-muted">PT. Performa Indonesia</p>
+              <p class="mt-3 max-w-2xl text-sm leading-6 text-[#55584f]">Built high-volume Django REST APIs, led a
+                containerised Linux migration, and mentored two junior engineers.</p>
+            </div>
+            <p class="font-mono text-[10px] uppercase tracking-[0.1em] text-muted sm:text-right">Backend · Infra</p>
+          </article>
+          <article class="grid gap-3 border-b border-rule py-6 sm:grid-cols-[150px_1fr_150px] sm:gap-6">
+            <p class="font-mono text-[10px] uppercase tracking-[0.1em] text-muted">Jul 2019 — Sep 2022</p>
+            <div>
+              <h3 class="text-lg font-semibold">Back-End Engineer</h3>
+              <p class="mt-1 text-sm text-muted">PT. Okular Kreasi Arthaguna</p>
+              <p class="mt-3 max-w-2xl text-sm leading-6 text-[#55584f]">Improved catalogue query performance and
+                integrated payment gateways for high-volume transactions.</p>
+            </div>
+            <p class="font-mono text-[10px] uppercase tracking-[0.1em] text-muted sm:text-right">Backend · Payments</p>
+          </article>
+          <article class="grid gap-3 border-b border-rule py-6 sm:grid-cols-[150px_1fr_150px] sm:gap-6">
+            <p class="font-mono text-[10px] uppercase tracking-[0.1em] text-muted">Jan 2019 — Jun 2019</p>
+            <div>
+              <h3 class="text-lg font-semibold">Full Stack Developer <span class="text-sm font-normal text-muted">·
+                  Contract</span></h3>
+              <p class="mt-1 text-sm text-muted">PT. Cipta Putra Manunggal</p>
+              <p class="mt-3 max-w-2xl text-sm leading-6 text-[#55584f]">Delivered 20+ client web products and helped
+                move legacy frontend applications to Svelte.</p>
+            </div>
+            <p class="font-mono text-[10px] uppercase tracking-[0.1em] text-muted sm:text-right">Full-stack</p>
+          </article>
+          <article class="grid gap-3 border-b border-rule py-6 sm:grid-cols-[150px_1fr_150px] sm:gap-6">
+            <p class="font-mono text-[10px] uppercase tracking-[0.1em] text-muted">Apr 2017 — Jan 2019</p>
+            <div>
+              <h3 class="text-lg font-semibold">Technical Support Engineer</h3>
+              <p class="mt-1 text-sm text-muted">PT. Sejahtera Mandiri Perkasa</p>
+              <p class="mt-3 max-w-2xl text-sm leading-6 text-[#55584f]">Supported more than 50 enterprise CCTV
+                deployments and built Python automation for firmware updates.</p>
+            </div>
+            <p class="font-mono text-[10px] uppercase tracking-[0.1em] text-muted sm:text-right">Operations · Python</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Capabilities -->
+    <section id="capabilities" class="grid gap-8 border-b border-rule py-16 sm:py-24 lg:grid-cols-12 lg:gap-8">
+      <div class="lg:col-span-3">
+        <p class="font-mono text-[10px] uppercase tracking-[0.18em] text-accent">03 / Capabilities</p>
+        <h2
+          class="mt-5 max-w-[260px] font-display text-4xl font-semibold leading-[1.02] tracking-[-0.055em] sm:text-5xl">
+          The tools behind the work.</h2>
+      </div>
+      <div class="grid gap-8 sm:grid-cols-2 lg:col-span-9 lg:grid-cols-3 lg:gap-10">
+        <div class="border-t border-ink pt-4">
+          <p class="font-mono text-[10px] uppercase tracking-[0.14em] text-accent">01 / Application</p>
+          <h3 class="mt-5 text-lg font-semibold">Backend & frontend</h3>
+          <p class="mt-3 text-sm leading-7 text-[#55584f]">Python, Django, Django REST Framework, FastAPI, Flask,
+            JavaScript, TypeScript, Svelte, VueJS, WordPress, Tailwind CSS, HTML and CSS.</p>
+        </div>
+        <div class="border-t border-ink pt-4">
+          <p class="font-mono text-[10px] uppercase tracking-[0.14em] text-accent">02 / Data</p>
+          <h3 class="mt-5 text-lg font-semibold">Data & persistence</h3>
+          <p class="mt-3 text-sm leading-7 text-[#55584f]">PostgreSQL, MongoDB, SQL optimisation, data modelling, ETL
+            pipelines, ingestion, transformation, and warehouse loading.</p>
+        </div>
+        <div class="border-t border-ink pt-4">
+          <p class="font-mono text-[10px] uppercase tracking-[0.14em] text-accent">03 / Delivery</p>
+          <h3 class="mt-5 text-lg font-semibold">Infrastructure & workflow</h3>
+          <p class="mt-3 text-sm leading-7 text-[#55584f]">Linux / Ubuntu, Docker, AWS, GCP, Git, CI/CD, production
+            deployment, monitoring, and troubleshooting.</p>
+        </div>
+      </div>
+      <div class="lg:col-span-9 lg:col-start-4">
+        <div
+          class="flex flex-col gap-3 border-t border-rule pt-5 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
+          <p><span class="font-semibold text-ink">Languages</span> · Indonesian (Native) · English (Professional)</p>
+          <p><span class="font-semibold text-ink">AI tooling</span> · Claude Code · Codex · Cursor</p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Portfolio -->
+    <section id="portfolios" class="border-t border-neutral-300 py-16 md:py-24">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+
+        <div class="md:col-span-4">
+          <p class="font-mono text-[10px] uppercase tracking-[0.18em] text-accent">04 / Projects</p>
+          <p class="text-xs uppercase tracking-[0.2em] text-neutral-500 mb-3">
+            Selected Work
+          </p>
+          <h2 class="text-3xl font-semibold tracking-tight">
+            Projects<span class="text-orange-700">.</span>
+          </h2>
+          <p class="text-sm text-neutral-500 mt-4 max-w-xs leading-relaxed">
+            A selection of projects, applications, and technical work I've contributed to.
+          </p>
+        </div>
+
+        <div class="md:col-span-8">
+
+          <!-- Portfolio item -->
+          <a href="https://bgn.go.id" target="_blank" rel="noopener noreferrer"
+            class="group flex items-center justify-between gap-4 py-6 border-b border-neutral-300 hover:text-orange-700 transition-colors">
+            <div>
+              <h3 class="text-lg font-medium">BGN</h3>
+              <p class="text-sm text-neutral-500 mt-1">
+                Whole BGN platform, including dashboard, geo tracking, and partner
+                monitoring performance 
+                <br> Python / Django / React / Laravel / Tencent
+              </p>
+            </div>
+            <span class="text-xl group-hover:translate-x-1 transition-transform">↗</span>
+          </a>
+
+          <!-- Portfolio item -->
+          <a href="https://bottlecrm.io" target="_blank" rel="noopener noreferrer"
+            class="group flex items-center justify-between gap-4 py-6 border-b border-neutral-300 hover:text-orange-700 transition-colors">
+            <div>
+              <h3 class="text-lg font-medium">BottleCRM - Contributor</h3>
+              <p class="text-sm text-neutral-500 mt-1">
+                An open source CRM built on top of Django & TypeScript (Svelte)
+                <br> Svelte / TypeScript / Django / PostgreSQL / APIs
+              </p>
+            </div>
+            <span class="text-xl group-hover:translate-x-1 transition-transform">↗</span>
+          </a>
+
+          <!-- GitHub -->
+          <a href="https://www.loker.id" target="_blank" rel="noopener noreferrer"
+            class="group flex items-center justify-between gap-4 py-6 border-b border-neutral-300 hover:text-orange-700 transition-colors">
+            <div>
+              <h3 class="text-lg font-medium">Loker.ID</h3>
+              <p class="text-sm text-neutral-500 mt-1">
+                Hiring platform, HRIS & ATS System for SME
+                <br> React / TypeScript / Django / FastAPI / PostgreSQL / APIs / Midtrans / Stripe
+              </p>
+            </div>
+            <span class="text-xl group-hover:translate-x-1 transition-transform">↗</span>
+          </a>
+
+          <a href="https://fast.or.id" target="_blank" rel="noopener noreferrer"
+            class="group flex items-center justify-between gap-4 py-6 border-b border-neutral-300 hover:text-orange-700 transition-colors">
+            <div>
+              <h3 class="text-lg font-medium">Telkom FAST</h3>
+              <p class="text-sm text-neutral-500 mt-1">
+                Telkom University Portal & Ticketing System
+                <br> TypeScript / FastAPI / Django / PostgreSQL / APIs / Midtrans
+              </p>
+            </div>
+            <span class="text-xl group-hover:translate-x-1 transition-transform">↗</span>
+          </a>
+
+          <a href="https://www.indexsaham.com" target="_blank" rel="noopener noreferrer"
+            class="group flex items-center justify-between gap-4 py-6 border-b border-neutral-300 hover:text-orange-700 transition-colors">
+            <div>
+              <h3 class="text-lg font-medium">IndexSaham</h3>
+              <p class="text-sm text-neutral-500 mt-1">
+                Stock Information, price tracking, stock portfolio management, dividend tracker & calculator
+                <br>
+                TypeScript / Svelte / Django / FastAPI / PostgreSQL / APIs / Xendit / Stripe
+              </p>
+            </div>
+            <span class="text-xl group-hover:translate-x-1 transition-transform">↗</span>
+          </a>
+
+
+          <a href="https://www.lokerhq.com" target="_blank" rel="noopener noreferrer"
+            class="group flex items-center justify-between gap-4 py-6 border-b border-neutral-300 hover:text-orange-700 transition-colors">
+            <div>
+              <h3 class="text-lg font-medium">Loker Headquarters</h3>
+              <p class="text-sm text-neutral-500 mt-1">
+                Hiring platform, HRIS & ATS System for SME
+                <br> SvelteKit / Vite / TypeScript / Django / FastAPI / PostgreSQL / Midtrans
+              </p>
+            </div>
+            <span class="text-xl group-hover:translate-x-1 transition-transform">↗</span>
+          </a>
+
+
+          <a href="https://github.com/icoldplayer/kasir" target="_blank" rel="noopener noreferrer"
+            class="group flex items-center justify-between gap-4 py-6 border-b border-neutral-300 hover:text-orange-700 transition-colors">
+            <div>
+              <h3 class="text-lg font-medium">Point of Sales</h3>
+              <p class="text-sm text-neutral-500 mt-1">
+                Point of Sales, a B2B SaaS between distributor and retailer
+                <br> SvelteKit / Vite / TypeScript / Django / FastAPI / PostgreSQL / Midtrans
+              </p>
+            </div>
+            <span class="text-xl group-hover:translate-x-1 transition-transform">↗</span>
+          </a>
+
+          <a href="https://github.com/icoldplayer/tracking-bot" target="_blank" rel="noopener noreferrer"
+            class="group flex items-center justify-between gap-4 py-6 border-b border-neutral-300 hover:text-orange-700 transition-colors">
+            <div>
+              <h3 class="text-lg font-medium">Logistic Tracking & WhatsApp Bot</h3>
+              <p class="text-sm text-neutral-500 mt-1">
+                A WhatsApp bot that tracks your e-commerce purchases in real-time using shipping receipts from major Indonesian couriers like J&T and JNE.
+                <br> Node.JS / FastAPI / Python / Django / Twilio / Midtrans
+              </p>
+            </div>
+            <span class="text-xl group-hover:translate-x-1 transition-transform">↗</span>
+          </a>
+
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="grid gap-10 py-16 sm:py-24 lg:grid-cols-12 lg:gap-8 lg:py-28">
+      <div class="lg:col-span-3">
+        <p class="font-mono text-[10px] uppercase tracking-[0.18em] text-accent">05 / Contact</p>
+        <p class="mt-5 max-w-[230px] text-sm leading-6 text-muted">For engineering roles, technical work, and project
+          enquiries.</p>
+      </div>
+      <div class="lg:col-span-9">
+        <h2 class="max-w-4xl font-display text-5xl font-semibold leading-[0.98] tracking-[-0.06em] sm:text-7xl">Have a
+          problem<br>worth <span class="text-accent">engineering?</span></h2>
+        <div class="mt-12 grid gap-8 border-t border-ink pt-6 sm:grid-cols-3">
+          <div>
+            <p class="font-mono text-[10px] uppercase tracking-[0.14em] text-muted">Email</p>
+            <a href="mailto:abdullohyusuff@gmail.com"
+              class="mt-3 inline-block text-sm font-semibold underline decoration-rule underline-offset-4 hover:text-accent">Send
+              me an email ↗</a>
+          </div>
+          <div>
+            <p class="font-mono text-[10px] uppercase tracking-[0.14em] text-muted">Phone</p>
+            <a href="https://wa.me/6281310601328"
+              class="mt-3 inline-block text-sm font-semibold underline decoration-rule underline-offset-4 hover:text-accent">Say
+              hi on WhatsApp ↗</a>
+          </div>
+          <div>
+            <p class="font-mono text-[10px] uppercase tracking-[0.14em] text-muted">GitHub</p>
+            <a href="https://github.com/icoldplayer" target="_blank" rel="noopener noreferrer"
+              class="mt-3 inline-block text-sm font-semibold underline decoration-rule underline-offset-4 hover:text-accent">github.com/icoldplayer
+              ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-rule">
+    <div
+      class="mx-auto flex max-w-[1440px] flex-col gap-3 px-6 py-6 text-[10px] text-muted sm:flex-row sm:items-center sm:justify-between sm:px-10 lg:px-16">
+      <p class="font-mono uppercase tracking-[0.12em]">© <span id="year">2026</span> Abdulloh Yusuf</p>
+      <p class="font-mono uppercase tracking-[0.12em]">Designed to be read. Built to do the work.</p>
+      <!-- <a href="#top" class="w-fit font-mono uppercase tracking-[0.12em] hover:text-accent">Back to top ↑</a> -->
+      <button id="backToTop" aria-label="Back to top" title="Back to top" class="fixed bottom-6 right-6 z-50 flex h-12 w-12 items-center justify-center
+           bg-neutral-900 text-white opacity-0 pointer-events-none
+           transition-all duration-300 hover:bg-orange-700">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="square">
+          <path d="M12 19V5M5 12l7-7 7 7" />
+        </svg>
+      </button>
+    </div>
+  </footer>
 </body>
+
 </html>
 
+<script>
+  const backToTop = document.getElementById('backToTop');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 400) {
+      backToTop.classList.remove('opacity-0', 'pointer-events-none');
+      backToTop.classList.add('opacity-100');
+    } else {
+      backToTop.classList.remove('opacity-100');
+      backToTop.classList.add('opacity-0', 'pointer-events-none');
+    }
+  });
+
+  backToTop.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+</script>
